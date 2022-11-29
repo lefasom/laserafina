@@ -78,9 +78,7 @@ export default function Home() {
         background: transparent;
         border:0;
         font-size: 34px;
-        margin: 15px 0;
         position: fixed;
-        left: -30px;
         cursor:pointer;
         position: absolute;
         right: 30px;        
@@ -90,7 +88,7 @@ export default function Home() {
         background: transparent;
         border:0;
         font-size: 34px;
-          position: absolute;
+        position: absolute;
         right: 30px;
  
       }
