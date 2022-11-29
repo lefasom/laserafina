@@ -1,0 +1,8 @@
+.container {
+position: absolute;
+ background-image: url('/lsb.png');
+ background-attachment: fixed;
+ background-size: 200px;
+ width: 100vw;
+ height: 100vh;
+}
