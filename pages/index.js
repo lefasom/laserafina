@@ -45,10 +45,7 @@ export default function Home() {
         border:0;
         font-size: 34px;
         margin: 10px ;
-<<<<<<< HEAD
-=======
         position: fixed;
->>>>>>> e690da6b5d7670fcdbafd3f71c83f72ec787d33e
         cursor:pointer;
       }
       .navOn{
@@ -81,12 +78,9 @@ export default function Home() {
         background: transparent;
         border:0;
         font-size: 34px;
-<<<<<<< HEAD
-=======
         margin: 15px 0;
         position: fixed;
         left: -30px;
->>>>>>> e690da6b5d7670fcdbafd3f71c83f72ec787d33e
         cursor:pointer;
         position: absolute;
         right: 30px;        
