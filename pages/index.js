@@ -88,6 +88,8 @@ export default function Home() {
         background: transparent;
         border:0;
         font-size: 34px;
+        position: absolute;
+        right: 30px;
  
       }
       .navOff{
