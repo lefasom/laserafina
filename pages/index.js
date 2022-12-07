@@ -1,7 +1,7 @@
 import Menu from '../components/Menu'
 import Logo from '../components/Logo'
+import Galery from '../components/Galery'
 
-import styles from '../styles/logo.module.css'
 
 
 export default function Home() {
@@ -9,33 +9,19 @@ export default function Home() {
 
   return (
     <>
+    <style jsx>
+    {`
+        .fotoPrincipal img {
+          width: 100%;
+        }
+    `}  
+    </style>   
     <Menu />
     <div className="fotoPrincipal">
       <img src="/fondo-serafina.jpeg" alt="" />
     </div>
     <Logo />
-     <li>HOLA</li>
-          <li>Cocina</li>
-          <li>Almacen</li>
-          <li>Proveeduria</li>
-          <li>Informate</li>
-          <li>La Serafina</li>
-          <li>Cocina</li>
-          <li>Almacen</li>
-          <li>Proveeduria</li>
-          <li>Informate</li> <li>La Serafina</li>
-          <li>Cocina</li>
-          <li>Almacen</li>
-          <li>Proveeduria</li>
-          <li>Informate</li> <li>La Serafina</li>
-          <li>Cocina</li>
-          <li>Almacen</li>
-          <li>Proveeduria</li>
-          <li>Informate</li> <li>La Serafina</li>
-          <li>Cocina</li>
-          <li>Almacen</li>
-          <li>Proveeduria</li>
-          <li>Informate</li>
+     <Galery />
     </>
   )
 }

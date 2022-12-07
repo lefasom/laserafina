@@ -1,0 +1,25 @@
+.galery{
+    color: #333;
+    font-weight: 200;
+   font-family: 'Open Sans', sans-serif; 
+   display: flex;
+   background-color: rgb(249, 241, 241);
+
+}
+.galery img {
+        
+    width: 50%;
+    height: 100vh;
+    object-fit: cover;
+}
+.galery .detail {
+    width: 50%;
+    margin: auto 30px;
+}
+.galery .detail h2{
+    font-size: 33px;
+}
+.galery .detail p{
+    font-size: 13px;
+
+}
