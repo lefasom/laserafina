@@ -12,7 +12,7 @@ export default function Home() {
     <style jsx>
     {`
         .fotoPrincipal img {
-          width: 100vw;
+          width: 100%;
         }
     `}  
     </style>   

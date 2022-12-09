@@ -29,7 +29,7 @@ function Galery() {
         </div>
     </div>
     <div className={styles.galery}>
-        <img src="example-img/13.jpeg" alt="" />
+        <img src="example-img/1.jpeg" alt="" />
         <div className={styles.detail}>
             <h2>MENÚ</h2>
             <p>

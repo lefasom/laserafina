@@ -9,11 +9,11 @@
 .galery img {
         
     height: 100vh;
-    width: 50VW;
+    width: 50%;
     object-fit: cover;
 }
 .galery .detail {
-    width: 50vw;
+    width: 50%;
     margin: auto;
 }
 .galery .detail h2{
@@ -22,7 +22,7 @@
 
 }
 .galery .detail p{
-    font-size: 13px;
+    font-size: 15px;
     
     margin: 40px;
 
@@ -41,23 +41,13 @@
 .galery img {
         
     height: 50vh;
-    width: 100vw;
+    width: 100%;
 
     object-fit: cover;
 }
 .galery .detail {
-    width: 100vw;
+    width: 100%;
     margin: auto;
 }
-.galery .detail h2{
-    font-size: 33px;
 
-}
-.galery .detail p{
-    font-size: 13px;
-  
-    
-
-
-}
 }
