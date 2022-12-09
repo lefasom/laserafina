@@ -1,6 +1,6 @@
-import Menu from '../components/Menu'
 import Logo from '../components/Logo'
 import Galery from '../components/Galery'
+import Layout from '../components/Layout'
 
 
 
@@ -16,12 +16,13 @@ export default function Home() {
         }
     `}  
     </style>   
-    <Menu />
-    <div className="fotoPrincipal">
-      <img src="/fondo-serafina.jpeg" alt="" />
-    </div>
-    <Logo />
-     <Galery />
+    <Layout>
+      <div className="fotoPrincipal">
+        <img src="/fondo-serafina.jpeg" alt="" />
+      </div>
+      <Logo />
+      <Galery />
+    </Layout>
     </>
   )
 }
