@@ -25,7 +25,7 @@ function Menu() {
       }
       .nav{
         background: rgba(0,0,0,.6);
-        width: 100vw;
+        width: 100%;
         height:60px;
         position: fixed;
         top:0;
@@ -42,7 +42,7 @@ function Menu() {
       }
       .navOn{
         background: rgba(0,0,0,.6);
-        width: 100vw;
+        width: 100%;
         height: 100vh;
         position: fixed;
         left: -140%;
@@ -96,7 +96,7 @@ function Menu() {
       }
       .navOff{
         background:  rgba(0,0,0,.6);
-        width: 100vw;
+        width: 100%;
         height: 100vh;
         position: fixed;
         left: 0;
@@ -105,7 +105,7 @@ function Menu() {
         transition: 850ms;
       }
       .fotoPrincipal img {
-        width: 100vw;
+        width: 100%;
         height: 500px;
         position: absolute;
         top: 0;
