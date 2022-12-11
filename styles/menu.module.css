@@ -1,0 +1,8 @@
+.lista li{
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.lista:hover li{
+    color:aquaS
+}

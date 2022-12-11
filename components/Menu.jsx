@@ -1,4 +1,6 @@
 import React from 'react'
+import styles from '../styles/menu.module.css'
+
 import { useState, useEffect } from 'react'
 function Menu() {
 
@@ -41,31 +43,33 @@ function Menu() {
         cursor:pointer;
       }
       .navOn{
-        background: rgba(0,0,0,.6);
+        background-color: rgb(246, 240, 240);
+
         width: 100%;
         height: 100vh;
         position: fixed;
         left: -140%;
         top: -17px;
         transition: 850ms;
-        color:#eee;
+        color:#333;
     
       }
       .navOn li{
         margin-top: 32px;
         font-family: sans-serif;
-        font-size: 20px;  
+        font-size: 25px;  
         list-style: none;
-        color:#eee;
+        color:#333;
       }
     
     
       .navOff li{
         margin-top: 32px;
         font-family: sans-serif;
-        font-size: 20px;  
+        font
+        font-size: 25px;  
         list-style: none;
-        color:#eee;
+        color:#333;
       }
       
       .navOff .lista{
@@ -75,7 +79,7 @@ function Menu() {
         margin-top: 75px;
       }
        .navOn button{
-        color:#eee;
+        color:#333;
         background: transparent;
         border:0;
         font-size: 34px;
@@ -86,7 +90,7 @@ function Menu() {
         
       }
       .navOff button{
-        color:#eee;
+        color:#333;
         background: trasparent;
         border:0;
         font-size: 34px;
@@ -95,14 +99,14 @@ function Menu() {
     
       }
       .navOff{
-        background:  rgba(0,0,0,.6);
+        background-color: rgb(246, 240, 240);
         width: 100%;
         height: 100vh;
         position: fixed;
         left: 0;
         top: -17px;
-        color:#eee;
-        transition: 850ms;
+        color:#333;
+        transition: 800ms;
       }
       .fotoPrincipal img {
         width: 100%;
@@ -126,11 +130,18 @@ function Menu() {
           x
         </button>
         <div className="lista">
-          <li>La Serafina</li>
-          <li>Cocina</li>
-          <li>Almacen</li>
-          <li>Proveeduria</li>
-          <li>Informate</li>
+          <div className={styles.lista}>
+            <li>Cocina</li>
+            <li>Almacen</li>
+            <li>Proveeduria</li>
+            <li>Informate</li>
+            <li>Almacen</li>
+            <li>Proveeduria</li>
+            <li>Informate</li>
+            <li>Almacen</li>
+            <li>Proveeduria</li>
+            <li>Informate</li>
+          </div>
         </div> 
       </ul>
     </nav>
