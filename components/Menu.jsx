@@ -66,7 +66,7 @@ function Menu() {
     
       }
       .navOn li{
-        margin-top: 32px;
+        margin-top: 23px;
         font-family: sans-serif;
         font-size: 25px;  
         list-style: none;
@@ -75,7 +75,7 @@ function Menu() {
     
     
       .navOff li{
-        margin-top: 32px;
+        margin-top: 23px;
         font-family: sans-serif;
         font-size: 25px;  
         list-style: none;
@@ -139,7 +139,8 @@ function Menu() {
             <li>Almacen</li>
             <li>Frutas y Verduras</li>
             <li>Proveeduria</li>
-            
+            <li>Frutos Secos</li>
+            <li>Sorteos</li>
           </div>
         </div> 
       </ul>
