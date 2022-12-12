@@ -20,13 +20,14 @@ function Galery() {
                 </div>
             </div>
             <div className={styles.galery}>
+            <img className={styles.img} src="example-img/7.jpeg" alt="" />
+
                 <div className={styles.detail}>
                     <h2>EVENTS</h2>
                     <p>
                     Celebrate at one of Australia’s most awarded restaurants, with panoramic views encompassing the Sydney Harbour Bridge and Sydney Opera House. From intimate dinner parties in the Private Dining Room, to long lunches in the spectacular Upper Tower, to large cocktail events in The Green Room – Quay delivers an immersive dining experience with views like no other.    Quay ofrece un pasaje personal e interactivo para los comensales a través de la evolución culinaria de Peter Gilmore.
                     </p>
                 </div>
-                <img className={styles.img} src="example-img/7.jpeg" alt="" />
 
             </div>
             <div className={styles.galery}>

@@ -72,6 +72,8 @@ function Menu() {
         color:#333;
       }
       
+          
+    
       .navOff .lista{
         margin-top: 75px;
       }
@@ -107,7 +109,9 @@ function Menu() {
         top: -17px;
         color:#333;
         transition: 800ms;
+     
       }
+    
       .fotoPrincipal img {
         width: 100%;
         height: 500px;
@@ -133,14 +137,9 @@ function Menu() {
           <div className={styles.lista}>
             <li>Cocina</li>
             <li>Almacen</li>
+            <li>Frutas y Verduras</li>
             <li>Proveeduria</li>
-            <li>Informate</li>
-            <li>Almacen</li>
-            <li>Proveeduria</li>
-            <li>Informate</li>
-            <li>Almacen</li>
-            <li>Proveeduria</li>
-            <li>Informate</li>
+            
           </div>
         </div> 
       </ul>
