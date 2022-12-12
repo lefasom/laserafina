@@ -42,6 +42,17 @@ function Menu() {
         position: fixed;
         cursor:pointer;
       }
+      .navOff{
+        background-color: rgb(246, 240, 240);
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        left: 0;
+        top: -17px;
+        color:#333;
+        transition: 800ms;
+     
+      }
       .navOn{
         background-color: rgb(246, 240, 240);
 
@@ -50,7 +61,7 @@ function Menu() {
         position: fixed;
         left: -140%;
         top: -17px;
-        transition: 850ms;
+        transition: 800ms;
         color:#333;
     
       }
@@ -66,7 +77,6 @@ function Menu() {
       .navOff li{
         margin-top: 32px;
         font-family: sans-serif;
-        font
         font-size: 25px;  
         list-style: none;
         color:#333;
@@ -100,17 +110,7 @@ function Menu() {
         left: 5px;
     
       }
-      .navOff{
-        background-color: rgb(246, 240, 240);
-        width: 100%;
-        height: 100vh;
-        position: fixed;
-        left: 0;
-        top: -17px;
-        color:#333;
-        transition: 800ms;
-     
-      }
+
     
       .fotoPrincipal img {
         width: 100%;
