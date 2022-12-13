@@ -1,5 +1,4 @@
 import styles from '../styles/galery.module.css'
-// import { imgArr } from './imgArr'
 
 function Galery(props) {
         console.log(props)
