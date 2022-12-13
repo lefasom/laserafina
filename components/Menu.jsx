@@ -28,9 +28,9 @@ function Menu() {
         opacity:0;
       }
       .nav{
-        background: rgba(0,0,0,.6);
+        background: rgba(0,0,0,1);
         width: 100%;
-        height:60px;
+        height:70px;
         position: fixed;
         top:0;
     
@@ -39,7 +39,7 @@ function Menu() {
         color:#eee;
         background: transparent;
         border:0;
-        font-size: 34px;
+        font-size: 44px;
         margin: 10px ;
         position: fixed;
         cursor:pointer;
@@ -87,29 +87,32 @@ function Menu() {
           
     
       .navOff .lista{
-        margin-top: 75px;
+        margin-top: 100px;
       }
       .navOn .lista{
-        margin-top: 75px;
+        margin-top: 100px;
       }
        .navOn button{
         color:#333;
         background: transparent;
         border:0;
-        font-size: 34px;
+        font-size: 44px;
         position: fixed;
         cursor:pointer;
         position: absolute;
         left: 5px;
+        font-weight:200;
         
       }
       .navOff button{
         color:#333;
         background: trasparent;
         border:0;
-        font-size: 34px;
+        font-size: 44px;
         position: absolute;
         left: 5px;
+        font-weight:200;
+
     
       }
 
