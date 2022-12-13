@@ -59,7 +59,6 @@ export default function Home() {
       </div>
       <Logo />
       <Galery content={contentArray}/>
-        in
     </Layout>
     </>
   )
