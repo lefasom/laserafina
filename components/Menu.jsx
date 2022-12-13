@@ -101,7 +101,9 @@ function Menu() {
         cursor:pointer;
         position: absolute;
         left: 5px;
-        font-weight:200;
+        top: 5px;
+
+        font-weight:400;
         
       }
       .navOff button{
@@ -111,7 +113,9 @@ function Menu() {
         font-size: 44px;
         position: absolute;
         left: 5px;
-        font-weight:200;
+        top: 5px;
+
+        font-weight:400;
 
     
       }
