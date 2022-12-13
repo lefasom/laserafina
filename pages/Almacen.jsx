@@ -5,6 +5,13 @@ function Almacen() {
     <div>
         <Layout>
             Almacen
+            Almacen
+            Almacen
+            Almacen
+            Almacen
+            Almacen
+            Almacen
+
         </Layout>
     </div>
   )

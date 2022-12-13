@@ -25,6 +25,12 @@ function Cocina() {
     <div>
         <Layout>
             Cocina
+            Cocina
+            Cocina
+            Cocina
+            Cocina
+            Cocina
+
             <Galery content={contentArray} />
         </Layout>
     </div>
