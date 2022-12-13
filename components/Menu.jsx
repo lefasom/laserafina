@@ -30,7 +30,7 @@ function Menu() {
       .nav{
         background: rgba(0,0,0,1);
         width: 100%;
-        height:70px;
+        height:60px;
         position: fixed;
         top:0;
     
@@ -103,7 +103,7 @@ function Menu() {
         left: 5px;
         top: 5px;
 
-        font-weight:400;
+        font-weight:600;
         
       }
       .navOff button{
@@ -115,7 +115,7 @@ function Menu() {
         left: 5px;
         top: 5px;
 
-        font-weight:400;
+        font-weight:600;
 
     
       }
