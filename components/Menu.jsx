@@ -102,9 +102,7 @@ function Menu() {
         cursor:pointer;
         position: absolute;
         left: 5px;
-
-        font-weight:600;
-        
+        font-weight:400;
       }
       .navOff button{
         color:#333;
@@ -113,14 +111,8 @@ function Menu() {
         font-size: 44px;
         position: absolute;
         left: 5px;
-       
-
-        font-weight:600;
-
-    
+        font-weight:400;
       }
-
-    
       .fotoPrincipal img {
         width: 100%;
         height: 500px;
@@ -129,7 +121,6 @@ function Menu() {
         z-index: -1;
         object-fit: cover;
       }
-      
       @media(min-width:700px) {
       
         .navOff{
