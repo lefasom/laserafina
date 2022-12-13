@@ -30,9 +30,10 @@ function Menu() {
       .nav{
         background: rgba(0,0,0,1);
         width: 100%;
-        height:60px;
+        height: 60px;
         position: fixed;
         top:0;
+        display: flex;
     
       }
       .nav button{
@@ -40,7 +41,7 @@ function Menu() {
         background: transparent;
         border:0;
         font-size: 44px;
-        margin: 10px ;
+        margin: auto 10px;
         position: fixed;
         cursor:pointer;
       }
@@ -101,7 +102,6 @@ function Menu() {
         cursor:pointer;
         position: absolute;
         left: 5px;
-        top: 5px;
 
         font-weight:600;
         
@@ -113,7 +113,7 @@ function Menu() {
         font-size: 44px;
         position: absolute;
         left: 5px;
-        top: 5px;
+       
 
         font-weight:600;
 
