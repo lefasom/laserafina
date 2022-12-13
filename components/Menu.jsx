@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from '../styles/menu.module.css'
+import Link from 'next/link'
+
 
 import { useState, useEffect } from 'react'
 function Menu() {
@@ -120,6 +122,16 @@ function Menu() {
         z-index: -1;
         object-fit: cover;
       }
+      
+      @media(min-width:700px) {
+      
+        .navOff{
+       
+          width:35%;
+      
+       
+        }
+      }
 
     `}</style>  
     <div className="nav">
@@ -135,12 +147,24 @@ function Menu() {
         </button>
         <div className="lista">
           <div className={styles.lista}>
-            <li>Cocina</li>
-            <li>Almacen</li>
-            <li>Frutas y Verduras</li>
-            <li>Proveeduria</li>
-            <li>Frutos Secos</li>
-            <li>Sorteos</li>
+            <li>
+              <Link href="/" >La Serafina</Link>
+            </li>
+            <li>
+              <Link href="Cocina" >Cocina</Link>
+            </li>
+            <li>
+              <Link href="Almacen" >Almacen</Link>
+            </li>
+            <li>
+              <Link href="FYV" >Frutas y Verduras</Link>
+            </li>
+            <li>
+              <Link href="FrutosSecos" >Frutos Secos</Link>
+            </li>
+            <li>
+              <Link href="Sorteos" >Sorteos</Link>
+            </li>
           </div>
         </div> 
       </ul>

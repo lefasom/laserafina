@@ -1,10 +1,10 @@
 import styles from '../styles/galery.module.css'
-import { imgArr } from './imgArr'
+// import { imgArr } from './imgArr'
 
-function Galery() {
-   
+function Galery(props) {
+        console.log(props)
         return (<>
-        {imgArr?.map(({id, src, text, heading}) => (
+        {props.content.map(({id, src, text, heading}) => (
             <div className={id % 2 !== 0 ? styles.galery : styles.galeryReverse} key={id}>
                 <img className={styles.img} src={src} alt="" />
                 <div className={styles.detail}>
