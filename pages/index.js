@@ -54,6 +54,24 @@ export default function Home() {
     `}  
     </style>   
     <Layout>
+
+
+      hola mundo
+      hola mundo
+      hola mundo
+      hola mundo
+      hola mundo
+      hola mundo
+      hola mundo
+      hola mundo
+      hola mundo
+      hola mundo
+      hola mundo
+      hola mundo
+      hola mundo
+      hola mundo
+      hola mundo
+
       <div className="fotoPrincipal">
         <img src="/fondo-serafina.jpeg" alt="" />
       </div>
