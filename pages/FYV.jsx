@@ -3,11 +3,9 @@ import Layout from '../components/Layout'
 
 function FYV() {
   return (
-    <div>
-        <Layout>
-            Frutas Y Verduras
-        </Layout>
-    </div>
+    <Layout>
+        Frutas Y Verduras
+    </Layout>
   )
 }
 
