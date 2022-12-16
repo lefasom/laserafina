@@ -6,7 +6,6 @@ import { useState, useEffect } from 'react'
 
 function Menu() {
   
-  const [ charger, setCharger] = useState('block')
   const [ sidebar, setSidebar] = useState(false)
   const [ navBar, setNavBar] = useState(false)
 
@@ -14,13 +13,6 @@ function Menu() {
   const navMod = () => {
     setSidebar(!sidebar)
   }
-
-
-  useEffect(() => {
-      setTimeout(function charger(){
-          setCharger('hidden')
-      },10000)
-  }, [])
 
   useEffect(() => {
     window.addEventListener('scroll', changeBackground)
@@ -38,6 +30,7 @@ function Menu() {
 
   return (<div>
     <style>{`
+  
     .navbar{
         display: flex;
         flex-direction: column;
@@ -63,7 +56,9 @@ function Menu() {
         display: flex;
     
       }
-      .nav button{
+
+
+      .nav .button1{
         color:#eee;
         background: transparent;
         border:0;
@@ -72,13 +67,14 @@ function Menu() {
         position: fixed;
         cursor:pointer;
       }
-      .navHidden button{
+      .navHidden .button1{
         color:#eee;
+
         background: transparent;
         border:0;
         font-size: 44px;
         margin: 10px;
-        margin-top:-100px;
+        margin-top: -100px;
         position: fixed;
         cursor:pointer;
       }
@@ -140,6 +136,8 @@ function Menu() {
         position: absolute;
         left: 5px;
         font-weight:400;
+        z-index:9999000000000;
+
       }
       .navOff button{
         color:#333;
@@ -149,6 +147,7 @@ function Menu() {
         position: absolute;
         left: 5px;
         font-weight:400;
+        z-index:9999000000000;
       }
       .fotoPrincipal img {
         width: 100%;
@@ -171,7 +170,7 @@ function Menu() {
     `}</style>  
     <div className={navBar ? "nav" : "navHidden"}>
 
-    <button onClick={navMod}>
+    <button  className="button1" onClick={navMod}>
      &#8801;
     </button>
 
