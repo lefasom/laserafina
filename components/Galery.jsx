@@ -2,7 +2,7 @@ import styles from '../styles/galery.module.css'
 
 
 function Galery(props) {
-        
+
         return (<>
         {props.content.map(({id, src, text, heading}) => (
             <div className={id % 2 !== 0 ? styles.galery : styles.galeryReverse} key={id}>

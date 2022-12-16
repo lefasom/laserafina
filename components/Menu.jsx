@@ -1,22 +1,40 @@
 import React from 'react'
 import styles from '../styles/menu.module.css'
 import Link from 'next/link'
-
-
 import { useState, useEffect } from 'react'
-function Menu() {
 
+
+function Menu() {
+  
   const [ charger, setCharger] = useState('block')
   const [ sidebar, setSidebar] = useState(false)
+  const [ navBar, setNavBar] = useState(false)
+
 
   const navMod = () => {
     setSidebar(!sidebar)
   }
+
+
   useEffect(() => {
       setTimeout(function charger(){
           setCharger('hidden')
       },10000)
   }, [])
+
+  useEffect(() => {
+    window.addEventListener('scroll', changeBackground)
+
+  }, [])
+
+   const changeBackground = () =>{
+    if (window.scrollY >= 80) {
+      setNavBar(true)
+    }else {
+      setNavBar(false)
+    }
+  }
+  console.log(navBar)
 
   return (<div>
     <style>{`
@@ -36,12 +54,31 @@ function Menu() {
         display: flex;
     
       }
+      .navhidden{
+        background: transparent;
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        top:0;
+        display: flex;
+    
+      }
       .nav button{
         color:#eee;
         background: transparent;
         border:0;
         font-size: 44px;
         margin: auto 10px;
+        position: fixed;
+        cursor:pointer;
+      }
+      .navHidden button{
+        color:#eee;
+        background: transparent;
+        border:0;
+        font-size: 44px;
+        margin: 10px;
+        margin-top:-100px;
         position: fixed;
         cursor:pointer;
       }
@@ -132,7 +169,7 @@ function Menu() {
       }
 
     `}</style>  
-    <div className="nav">
+    <div className={navBar ? "nav" : "navHidden"}>
 
     <button onClick={navMod}>
      &#8801;
