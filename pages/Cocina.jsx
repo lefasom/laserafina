@@ -32,12 +32,6 @@ function Cocina() {
     ]
   return (
     <Layout>
-        Cocina
-        Cocina
-        Cocina
-        Cocina
-        Cocina
-        Cocina
         <Slider content={sliderContent}/>
         <Galery content={contentArray}/>
     </Layout>
