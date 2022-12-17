@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/Layout'
+import LayoutCopy from '../components/LayoutCopy'
 import Galery from '../components/Galery'
 import Slider from '../components/Slider'
 
@@ -31,10 +31,10 @@ function Cocina() {
         {id: 6, src: 'example-img/6.jpeg'}
     ]
   return (
-    <Layout>
+    <LayoutCopy>
         <Slider content={sliderContent}/>
         <Galery content={contentArray}/>
-    </Layout>
+    </LayoutCopy>
   )
 }
 

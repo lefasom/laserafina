@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { useState, useEffect } from 'react'
 
 
-function Menu() {
+function MenuCopy() {
   
   const [ sidebar, setSidebar] = useState(false)
   const [ navBar, setNavBar] = useState(false)
@@ -26,7 +26,6 @@ function Menu() {
       setNavBar(false)
     }
   }
-  console.log(navBar)
 
   return (<div>
     <style>{`
@@ -35,27 +34,15 @@ function Menu() {
         display: flex;
         flex-direction: column;
       }
-      .hidden{
-        opacity:0;
-      }
+     
       .nav{
-        background: rgba(0,0,0,1);
+        background: rgba(0, 0, 0, 1);
         width: 100%;
         height: 60px;
-        position: fixed;
-        top:0;
-        display: flex;
+        position:fixed;
     
       }
-      .navhidden{
-        background: transparent;
-        width: 100%;
-        height: 60px;
-        position: fixed;
-        top:0;
-        display: flex;
-    
-      }
+     
 
 
       .nav .button1{
@@ -168,7 +155,7 @@ function Menu() {
       }
 
     `}</style>  
-    <div className={navBar ? "nav" : "navHidden"}>
+    <div className="nav">
 
     <button  className="button1" onClick={navMod}>
      &#8801;
@@ -208,4 +195,4 @@ function Menu() {
   )
 }
 
-export default Menu
+export default MenuCopy

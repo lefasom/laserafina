@@ -1,9 +1,9 @@
 import React from 'react'
-import Layout from '../components/Layout'
+import LayoutCopy from '../components/LayoutCopy'
 function Almacen() {
   return (
     <div>
-        <Layout>
+        <LayoutCopy>
             Almacen
             Almacen
             Almacen
@@ -12,7 +12,7 @@ function Almacen() {
             Almacen
             Almacen
 
-        </Layout>
+        </LayoutCopy>
     </div>
   )
 }
