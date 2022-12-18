@@ -50,7 +50,7 @@ export default function Home() {
     {`
         .fotoPrincipal img {
           width: 100%;
-          height: 100vh;
+          height: 120vh;
         }
     `}  
     </style>   

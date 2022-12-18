@@ -16,15 +16,13 @@
 }
 .containerLogo {
 
-	margin: 266px auto;
-
+	margin:180px auto;
 /*	background-color: rgba(257, 257, 257, .5);*/
 	border-radius: 100%;
 	height: 300px;
 	width: 300px;
 	display: flex;
 	flex-direction: column;
-        padding-left:15px
        
 
 }
