@@ -35,11 +35,12 @@ export default function Slider({content}) {
         </div>
 
     </div>
-    <div className={styles.galery}>
+    {/* <div className={styles.galery}>
+    
                 <div className={styles.detail}>
                     <h2>SLIDER</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae voluptatibus inventore sapiente repellendus amet, nesciunt illo facere dolorem officia et cumque commodi iste deserunt? Alias quaerat ratione animi! Incidunt, officia!</p>
                 </div>
-            </div>
+            </div> */}
   </div>)
 }

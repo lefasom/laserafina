@@ -26,7 +26,7 @@ function Menu() {
       setNavBar(false)
     }
   }
-  console.log(navBar)
+  
 
   return (<div>
     <style>{`
@@ -69,13 +69,12 @@ function Menu() {
       }
       .navHidden .button1{
         color:#eee;
-        z-index:99999999;
         background: transparent;
         border:0;
         font-size: 44px;
         margin: 10px;
-        margin-top: -100px;
         position: fixed;
+        top:-10px;
         cursor:pointer;
       }
       .navOff{

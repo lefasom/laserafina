@@ -1,31 +1,18 @@
 import React from 'react'
 import styles from '../styles/menu.module.css'
 import Link from 'next/link'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 
 function MenuCopy() {
   
   const [ sidebar, setSidebar] = useState(false)
-  const [ navBar, setNavBar] = useState(false)
 
 
   const navMod = () => {
     setSidebar(!sidebar)
   }
 
-  useEffect(() => {
-    window.addEventListener('scroll', changeBackground)
-
-  }, [])
-
-   const changeBackground = () =>{
-    if (window.scrollY >= 80) {
-      setNavBar(true)
-    }else {
-      setNavBar(false)
-    }
-  }
 
   return (<div>
     <style>{`

@@ -12,11 +12,11 @@
 	display: flex;
 	background-color:transparent;
 	width: 100vw;
-
+	height: 100vh;
 }
 .containerLogo {
 
-	margin: 100px auto;
+	margin: 266px auto;
 
 /*	background-color: rgba(257, 257, 257, .5);*/
 	border-radius: 100%;
