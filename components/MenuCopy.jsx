@@ -20,6 +20,7 @@ function MenuCopy() {
     .navbar{
         display: flex;
         flex-direction: column;
+        background-color: rgb(255, 255, 255);
       }
      
       .nav{
@@ -53,7 +54,7 @@ function MenuCopy() {
         cursor:pointer;
       }
       .navOff{
-        background-color: rgb(246, 240, 240);
+        background-color: rgb(255, 255, 255);
         width: 100%;
         height: 100vh;
         position: fixed;
@@ -64,7 +65,7 @@ function MenuCopy() {
      
       }
       .navOn{
-        background-color: rgb(246, 240, 240);
+        background-color: rgb(255, 255, 255);
 
         width: 100%;
         height: 100vh;
@@ -102,7 +103,8 @@ function MenuCopy() {
       }
        .navOn button{
         color:#333;
-        background: transparent;
+        background-color: rgb(255, 255, 255);
+
         border:0;
         font-size: 44px;
         position: fixed;
@@ -115,7 +117,8 @@ function MenuCopy() {
       }
       .navOff button{
         color:#333;
-        background: trasparent;
+        background-color: rgb(255, 255, 255);
+
         border:0;
         font-size: 44px;
         position: absolute;

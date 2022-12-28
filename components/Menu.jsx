@@ -32,6 +32,7 @@ function Menu() {
     <style>{`
   
     .navbar{
+      background-color: rgb(255, 255, 255);
         display: flex;
         flex-direction: column;
       }
@@ -78,7 +79,7 @@ function Menu() {
         cursor:pointer;
       }
       .navOff{
-        background-color: rgb(246, 240, 240);
+        background-color: rgb(255, 255, 255);
         width: 100%;
         height: 100vh;
         position: fixed;
@@ -89,7 +90,7 @@ function Menu() {
      
       }
       .navOn{
-        background-color: rgb(246, 240, 240);
+        background-color: rgb(255, 255, 255);
 
         width: 100%;
         height: 100vh;
@@ -127,7 +128,8 @@ function Menu() {
       }
        .navOn button{
         color:#333;
-        background: transparent;
+        background-color: rgb(255, 255, 255);
+
         border:0;
         font-size: 44px;
         position: fixed;
@@ -140,7 +142,8 @@ function Menu() {
       }
       .navOff button{
         color:#333;
-        background: trasparent;
+        background-color: rgb(255, 255, 255);
+
         border:0;
         font-size: 44px;
         position: absolute;
