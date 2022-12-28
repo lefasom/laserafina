@@ -1,13 +1,12 @@
 .galery{
     color: #333;
     display: flex;
-    background-color: rgb(246, 240, 240);
+    background-color: rgb(255, 255, 255);
 }
 .galeryReverse{
     color: #333;
     display: flex;
     flex-direction: row-reverse;
-    background-color: rgb(246, 240, 240);
 }
 .img {
     height: 100vh;
@@ -36,14 +35,14 @@
         color:#333;
         display: flex;
         flex-direction: column;
-        background-color: rgb(246, 240, 240);
+        background-color: rgb(255, 255, 255);
       
     }
     .galeryReverse{
         color: #333;
         display: flex;
         flex-direction: column;
-        background-color: rgb(246, 240, 240);
+        background-color: rgb(255, 255, 255);
     }
     
     .img {
