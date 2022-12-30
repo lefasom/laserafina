@@ -8,8 +8,8 @@ function Cocina() {
     const contentArray = [
         {
             id: 8,
-            heading: 'COCINA',
-            src: 'example-img/21.jpeg',
+            heading: 'EMPANADAS',
+            src: 'example-img/4.png',
             text: `Quay es una progresión de la armonía son primordiales.
             Quay ofrece un pasaje personal e inlinaria de Peter Gilmore.`
         },
@@ -23,12 +23,10 @@ function Cocina() {
       
     ]
     const sliderContent = [
-        {id: 1, src: 'example-img/1.jpeg'},
-        {id: 2, src: 'example-img/2.jpeg'},
-        {id: 3, src: 'example-img/3.jpeg'},
-        {id: 4, src: 'example-img/4.jpeg'},
-        {id: 5, src: 'example-img/5.jpeg'},
-        {id: 6, src: 'example-img/6.jpeg'}
+        
+        {id: 1, src: 'example-img/5.png'},
+        {id: 2, src: 'example-img/4.png'},
+        {id: 3, src: 'example-img/3.png'}
     ]
   return (
     <LayoutCopy>

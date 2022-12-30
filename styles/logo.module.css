@@ -1,31 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Krona+One&family=Staatliches&display=swap');
-.containerBig {
-	 background-image: url('/lsb.png');
-	 background-attachment: fixed;
-	 background-size: 200px;
-	 width: 100vw;
-	 height: 100vh;
-	 position: absolute;
-	 z-index: 9999999;
-}
+
 .container{
 	display: flex;
-	background-color:transparent;
+	background-color:red;
 	width: 100vw;
 	height: 100vh;
 }
 .containerLogo {
 
-	margin:180px auto;
-/*	background-color: rgba(257, 257, 257, .5);*/
-	border-radius: 100%;
-	height: 300px;
-	width: 300px;
+	/* margin:180px auto; */
+	padding-top: 40vh;
+	padding-bottom: 40vh;
+	background-color: rgba(0, 0, 0, .3);
+
+	height: auto;
+	width: 100vw;
 	display: flex;
 	flex-direction: column;
-       
+    
 
 }
+
 .containerLogo .name {
 	margin: auto;
 	

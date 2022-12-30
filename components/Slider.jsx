@@ -39,9 +39,9 @@ export default function Slider({content}) {
     <div className={styles.galery}>
     
                 <div className={styles.detail}>
-                    <h2>SLIDER</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae voluptatibus inventore sapiente repellendus amet, nesciunt illo facere dolorem officia et cumque commodi iste deserunt? Alias quaerat ratione animi! Incidunt, officia!</p>
-                </div>
+                    <h2>EMPANADAS</h2>
+                    <p>Empanadas al horno de barro con masa hojaldrada</p> 
+                       </div>
             </div>
   </div>)
 }
