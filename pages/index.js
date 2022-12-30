@@ -7,10 +7,9 @@ export default function Home() {
   const contentArray = [
     {
         id: 1,
-        heading: 'MENÚ',
-        src: 'example-img/1.jpeg',
-        text: `Quay es una progresión de la armonía son primordiales.
-        Quay ofrece un pasaje personal e inlinaria de Peter Gilmore.`
+        heading: 'ALBERTO LOPEZ',
+        src: 'example-img/beto.png',
+        text: `Beto es una persona apacionada por el deporte, la vida saludable y la buena alimentación.`
     },
     {
         id: 2,
@@ -49,14 +48,15 @@ export default function Home() {
     <style jsx>
     {`
         .fotoPrincipal img {
-          width: 100%;
-          height: 120vh;
+          object-fit: cover;
+          height:100vh;
+          
         }
     `}  
     </style>   
     <Layout>
       <div className="fotoPrincipal">
-        <img src="/fondo-serafina.jpeg" alt="" />
+        <img src="example-img/6.png" alt="" />
       </div>
       <Logo />
       <Galery content={contentArray}/>
